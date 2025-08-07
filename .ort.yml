@@ -1,0 +1,5 @@
+includes:
+  paths:
+  - pattern: "/src/test/**"
+    reason: "SOURCE_OF"
+    comment: "Test Comment"
