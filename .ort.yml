@@ -3,3 +3,8 @@ includes:
   - pattern: "/src/test/**"
     reason: "SOURCE_OF"
     comment: "Test Comment"
+excludes:
+  paths:
+    - pattern: "./idea"
+      reason: "BUILD_TOOL_OF"
+      comment: "Test Comment 2"
